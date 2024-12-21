@@ -68,6 +68,8 @@
 }
 
 
+
+
 @media (max-width:450px){
 
     .navbar-item > .product-navbar{
@@ -154,6 +156,39 @@
     }
 }
  
+
+@media(max-width: 400px){
+    .about-wrapper > .about-text{
+        width: 180px;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+
+
+    .about-wrapper > .about-text > .about-info{
+        font-size: 12px;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        text-transform: capitalize;
+        color: black;
+        text-align: center;
+
+    }
+    
+
+    .visi{
+        display: inline-block;
+        width: 180px;
+        font-size: 12px;
+    }
+
+    .product-text{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+    }
+}
 /* =================================================================================================================================================================================================
 ============ RESPONSIVE PHONE CSS ===================================================================================================================================================================
 ================================================================================================================================================================================================== */
