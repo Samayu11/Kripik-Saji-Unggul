@@ -582,6 +582,7 @@ body{
 
 .footer-management{
     font-size: 20px;
+    text-transform: lowercase;
 }
 
 .contact-btn{
