@@ -6,6 +6,8 @@
     <title>Product KSU</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,6 +18,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
 <!-- font awesome cdn link  -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
@@ -26,19 +29,38 @@
 <script src="js/script.js" defer></script>
 </head>
 <body>
-     <!-- =================================================================================================================================================================================================
+      <!-- =================================================================================================================================================================================================
 ============ NAVIGATION BAR ===================================================================================================================================================================
 ================================================================================================================================================================================================== -->
 <div class="navbar">
-  <div class="brand">
-    <img class="logo-navbar" src="assets/logo.jpg" alt="" width="50" height="50">
-    <a class="navbar-brand fs-3 fw-bold" href="#"><img src="assets/brand.png" alt="" width="100" height="50" ></a>
-  </div>
-  <div class="navbar-item">
-    <a class="about-navbar fs-5 fw-bold" href="index.html"><i class='bx bxs-home'></i>HOME</a>
-    <a class="product-navbar fs-5 fw-bold" href="#"><i class='bx bx-cart-alt'></i>SHOP</a>
-  </div>
-</div>
+   <div class="brand">
+     <img class="logo-navbar" src="assets/logo.jpg" alt="" width="80" height="80">
+     
+   </div>
+   <div class="navbar-item">
+     <a class="home-navbar" href="index.html"><i class='bx bxs-home'></i>HOME</a>
+     <a class="about-navbar" href="about.html"><i class='bx bx-info-circle' ></i></i>ABOUT US</a>
+     <a class="product-navbar" href="product.html"><i class='bx bx-cart-alt'></i>PRODUCT</a>
+   </div>
+
+   <div class="socialmedia">
+     <a class="icon-navbar" href="#"><i class='bx bxl-instagram'></i></a>
+     <a class="icon-navbar" href="#"><i class='bx bxs-shopping-bag'></i></a>
+     <a class="icon-navbar" href="#"><i class='bx bxl-facebook-circle' ></i></a>
+   </div>
+
+   <div id="check" class="menu-button" >
+     <i class="ph ph-list"></i>
+   </div>
+ </div>
+
+ <div class="menu-responsive"  id="menu-id"  >
+   <div class="navbar-responsive">
+     <a class="home-navbar" href="index.html"><i class='bx bxs-home'></i>HOME</a>
+     <a class="about-navbar" href="about.html"><i class='bx bx-info-circle' ></i></i>ABOUT US</a>
+     <a class="product-navbar" href="product.html"><i class='bx bx-cart-alt'></i>PRODUCT</a>
+   </div>
+ </div>
 <!-- =================================================================================================================================================================================================
 ============ NAVIGATION BAR END ===================================================================================================================================================================
 ================================================================================================================================================================================================== -->
@@ -513,12 +535,129 @@
   </div>
 </div>
   </div>
+  <!-- =================================================================================================================================================================================================
+============ FOOTER ===================================================================================================================================================================
+================================================================================================================================================================================================== -->
+
+<div class="contact">
+   <div class="contact-teks">
+     <h1 class="contact-h1">CONTACT US</h1>
+     <div class="footer-management">
+       a symbol of quality snacks | Food & Beverages | Holding company <br/>
+       Email : keripiksajiunggul@gmail.com <br/>
+       Telp : 082123338599<br/>
+       Jl. Alternatif Cibubur No. 74 Cileungsi, Bogor-Jawa barat 16820<br/>
+     </div>
+   </div>
+   
+   
+ 
+   <div class="contact-btn">
+     <button class="btn1"> CONTACT US</button>
+   </div>
+ </div>
+ 
+ 
+ <div class="footer-wrapper">
+   <div class="footer-company">
+     <img class="footer-sticker" src="assets/sticker.png" alt="">
+     <br/>
+     PT Keripik Saji Unggul | KSU 
+     <br/>
+ 
+     <!-- <ul class="footer-media">
+       <li class="media-list"><a class="icon-footer" href="#"><i class="fa-brands fa-instagram"></i></a>@keripiksaji</li>
+       <li class="media-list"><a class="icon-footer" href="#"><i class="fa-brands fa-instagram"></i></a>@snackakilima</li>
+       <li class="media-list"><a class="icon-footer" href="#"><i class="fa-brands fa-instagram"></i></a>@rumahksu</li>
+     </ul>  -->
+   </div>
+ 
+ 
+ 
+   <div class="footer-info">
+ 
+     <h1 class="info-h1"><strong>MITRA</strong></h1>
+     
+     CIBUBUR – 5 KEMITRAAN 
+     <br/>
+     Kategori toko, warung dan kantor
+     <br/>
+ 
+     CILEUNGSI – 10 KEMITRAAN
+     <br/>
+     Kategori toko, warung dan kantor
+     <br/>
+     G. PUTRI – 3 KEMITRAAN 
+     <br/>
+     Kategori toko, warung dan kantor
+     <br/>
+     BEKASI – 3 KEMITRAAN 
+     <br/>
+     Kategori toko, warung dan kantor
+   </div>
+ 
+   <div class="footer-info">
+ 
+     <h1 class="info-h1"><strong>MERK</strong></h1>
+ 
+     KERAJI – 2020 
+     <br/>  
+     keripik dengan segmentasi brand snack 
+     <br/>dan camilan dengan
+     dewasa.
+     <br/>
+     PROYEKSU – 2017
+     <br/>
+     brand layanan jasa desain agensi
+     <br/>
+     sebelumnya bernama
+     <br/>
+     “WINZ – GINGA –
+     WINZNESIA – AVADENSI”
+     <br/>
+     SNACK KAKI LIMA – 2023 
+     <br/>
+     brand snack dan camilan dengan
+     <br/>
+     segmentasi anak-anak dan remaja.
+ 
+   </div>
+ 
+   <div class="footer-info">
+     <h1 class="info-h1"><strong>PROJECT</strong></h1>
+ 
+     ROYAL RESORT RESIDENCES
+     <br/>
+     HIDAYAH CATERING
+     <br/>
+     PURI AMALA ASRI
+     <br/>
+     VILLA TAMAN BUNGA
+     <br/>
+     SPRINGHILL YUME GREEN
+     <br/>
+     ROYAL GRANDE RESIDENCES
+     <br/>
+     SKINDIVORE
+     <br/>
+     CASSA ARTISAN CHIPS
+     <br/>
+     GRAND BUKIT DAGO
+     <br/>
+     THE OAK TOWER
+   </div>
+    
+ </div>
+ 
+ 
+ <div class="copyright">
+   ©Hak Cipta ©2024-PT Kripik Saji Unggul |KSU
+ </div>
 <!-- =================================================================================================================================================================================================
 ============ PRODUCT CARD END ===================================================================================================================================================================
 ================================================================================================================================================================================================== -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="scripts.js">
-
-</script>
+<script src="scripts.js"></script>
+<script src="menu.js"></script>
 </body>
 </html>

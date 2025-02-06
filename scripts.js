@@ -1,7 +1,7 @@
-window.addEventListener("scroll", function(){
-    var navbar = document.querySelector('.navbar'); // Fixed the syntax here
-    navbar.classList.toggle("sticky", window.scrollY > 0);
-});
+// window.addEventListener("scroll", function(){
+//     var navbar = document.querySelector('.navbar'); // Fixed the syntax here
+//     navbar.classList.toggle("sticky", window.scrollY > 0);
+// });
 
 let preveiwContainer = document.querySelector('.products-preview');
 let previewBox = preveiwContainer.querySelectorAll('.preview');
@@ -25,3 +25,5 @@ previewBox.forEach(close =>{
     preveiwContainer.style.display = 'none';
   };
 });
+
+ 

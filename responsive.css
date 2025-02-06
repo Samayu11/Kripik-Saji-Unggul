@@ -1,12 +1,49 @@
 /* =================================================================================================================================================================================================
 ============ RESPONSIVE PHONE CSS ===================================================================================================================================================================
 ================================================================================================================================================================================================== */
+
+
+@media (max-width:1110px){
+    .brand{
+        margin-left: 100px;
+    }
+    .navbar-item > .home-navbar{
+        margin-left: 50px;
+    }
+    .navbar-item > .product-navbar{
+        margin-right: 0px;
+    }
+
+    .socialmedia{
+        margin-left: 10px;
+    }
+
+    .hero-banner > .hero-image{
+        width: 500px;
+        height: 500px;
+        
+    }
+
+    .text-anim{
+        bottom: 1050px;
+    }
+
+    .hero-info{
+        bottom: 950px
+    }
+
+    .learn-more{
+        bottom: 880px
+    }
+
+}
+
 @media (max-width:991px){
 
-    html{
-       font-size: 55%;
+    .brand{
+        margin-left: 100px;
     }
-    
+
     .navbar{
         position: fixed !important;
     }
@@ -15,10 +52,17 @@
         margin-right: 45px;
     }
 
+    .navbar-item > .home-navbar{
+        margin-left: 0px;
+    }
+
+    .socialmedia{
+        display: none;
+    }
 
     .hero-banner > .hero-image{
-        width: 100%;
-        height: 250px;
+        width: 500px;
+        height: 500px;
     }
 
 
@@ -32,10 +76,29 @@
     .contact-btn{
         margin-right: 50px ;
     }
+
+    .text-anim{
+        font-size: 1em;
+        bottom: 850px;
+    }
+
+    .hero-info{
+        font-size: 30px;
+        bottom: 780px
+    }
+
+    .learn-more{
+        font-size: 1em;
+        bottom: 720px
+    }
  }
 
 
 @media only screen and (max-width: 768px) {
+    .brand{
+        margin-left:40px;
+    }
+
     .navbar{
         position: fixed !important;
     }
@@ -47,8 +110,8 @@
 
 
     .hero-banner > .hero-image{
-        width: 100%;
-        height: 250px;
+        width: 500px;
+        height: 500px;
     }
 
 
@@ -72,10 +135,34 @@
     .btn1{
         margin-top: 5px;
     }
+
+    .text-anim{
+        font-size: 1em;
+        bottom: 650px;
+    }
+
+    .hero-info{
+        font-size: 30px;
+        bottom: 580px
+    }
+
+    .learn-more{
+        font-size: 1em;
+        bottom: 520px
+    }
 }
 
 
-@media (max-width:450px){
+@media (max-width:630px){
+    .brand{
+        margin-left: 40px;
+    }
+
+    .navbar-item{
+        display: none;
+    }
+
+    
 
     .navbar-item > .product-navbar{
         margin-right: 55px;
@@ -83,7 +170,75 @@
 
     .hero-banner > .hero-image{
         width: 100%;
-        height: 150px;
+        height: 500px;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .menu-responsive.hidden{
+        transition: all .5s ease;
+        display: flex;
+        
+        
+        
+    }
+
+   
+
+    .menu-responsive{
+        position: fixed;
+        display: none;
+        
+    
+    }
+
+
+    .ph{
+        display: block;
+        margin-right: 30px;
+    }
+
+    .text-anim{
+        font-size: 1em;
+        bottom: 640px;
+    }
+
+    .hero-info{
+        font-size: 25px;
+        bottom: 580px
+    }
+
+    .learn-more{
+        font-size: 1em;
+        bottom: 520px
+    }
+}
+
+
+@media (max-width:450px){
+    .brand{
+        margin-left: 40px;
+    }
+
+    .navbar-item{
+        display: none;
+    }
+
+    .navbar-item > .product-navbar{
+        margin-right: 55px;
+    }
+
+    .ph{
+        display: block;
+        margin-right: 30px;
+    }
+
+    .hero-banner > .hero-image{
+        width: 100%;
+        height: 400px;
+        flex-wrap: wrap;
+        overflow: hidden;
+        
     }
 
     .about-wrapper > .about-text{
@@ -101,30 +256,30 @@
     }
     .singkong{
         border: 1px solid  white;
-        flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.142);
-        backdrop-filter: blur(1px);
+        flex-direction:column;
+        background-color: white;
+     
     }
 
     .pangsit{
         border: 1px solid  white;
         flex-direction:column-reverse;
-        background-color: rgba(0, 0, 0, 0.142);
-        backdrop-filter: blur(1px);
+        background-color: white;
+     
     }
 
     .peyek{
         border: 1px solid  white;
         flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.142);
-        backdrop-filter: blur(1px);
+        background-color: white;
+        
     }
 
     .basreng{
         border: 1px solid  white;
         flex-direction: column-reverse;
-        background-color: rgba(0, 0, 0, 0.142);
-        backdrop-filter: blur(1px);
+        background-color: white;
+  
     }
 
     .contact{
@@ -170,8 +325,67 @@
     .info-h1{
         font-size: 15px;
     }
+
+    .text-anim{
+        font-size: 1em;
+        bottom: 850px;
+    }
+
+    .hero-info{
+        font-size: 25px;
+        bottom: 780px
+    }
+
+    .learn-more{
+        font-size: 1em;
+        bottom: 620px
+    }
 }
  
+/* 
+@media (max-height:1000px){
+    .text-anim{
+        font-size: 1em;
+        bottom: 650px;
+    }
+
+    .hero-info{
+        font-size: 25px;
+        bottom: 580px
+    }
+
+    .learn-more{
+        font-size: 1em;
+        bottom: 540px
+    }
+
+    .lm-button{
+        width: 150px;
+        height:30px;
+    }
+} */
+
+/* @media (max-height:900px){
+    .text-anim{
+        font-size: 1em;
+        bottom: 650px;
+    }
+
+    .hero-info{
+        font-size: 25px;
+        bottom: 580px
+    }
+
+    .learn-more{
+        font-size: 1em;
+        bottom: 520px
+    }
+
+    .lm-button{
+        width: 150px;
+        height:30px;
+    }
+} */
 
 @media(max-width: 400px){
     .navbar-item > .product-navbar{
@@ -181,8 +395,11 @@
 
     .hero-banner > .hero-image{
         width: 100%;
-        height: 150px;
-    }
+        height: 400px;
+        flex-wrap: wrap;
+        overflow: hidden;
+        }
+    
 
     .about-wrapper > .about-text{
         width: 300px;
@@ -215,7 +432,52 @@
         font-size: 12px;
         background-color: white;
     }    
+
+    .text-anim{
+        right: 3px;
+        font-size: 1em;
+        bottom:520px;
+    }
+
+    .hero-info{
+        font-size: 25px;
+        bottom: 460px
+    }
+
+    .learn-more{
+        font-size: 1em;
+        bottom: 435px
+    }
+
+    .lm-button{
+        width: 150px;
+        height:30px;
+    }
 }
+
+/* @media( max-height:700px ){
+    .text-anim{
+        right: 3px;
+        font-size: 1em;
+        bottom:380px;
+    }
+
+    .hero-info{
+        font-size: 25px;
+        bottom: 330px
+    }
+
+    .learn-more{
+        font-size: 1em;
+        bottom: 310px
+    }
+
+    .lm-button{
+        width: 150px;
+        height:30px;
+    }
+
+} */
 /* =================================================================================================================================================================================================
 ============ RESPONSIVE PHONE CSS ===================================================================================================================================================================
 ================================================================================================================================================================================================== */

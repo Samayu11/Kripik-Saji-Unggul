@@ -1,0 +1,75 @@
+.navbar-item > .home-navbar{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: transparent ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 50px;
+    border-radius: 20px;
+   
+}
+
+.navbar-item > .about-navbar{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color:transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 50px;
+    border-radius: 20px;
+   
+}
+
+.navbar-item > .product-navbar{
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(201, 67, 66) ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 50px;
+    border-radius: 20px;
+    border-radius: 20px;
+  
+}
+
+.about-navbar:hover{
+    transition: all .5s ease;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color:rgb(201, 67, 66) ;
+    color: white;
+}
+
+
+.product-navbar:hover{
+    transition: all .5s ease;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color:rgb(201, 67, 66) ;
+    color: white;
+}
+
+.home-navbar:hover{
+    transition: all .5s ease;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color:rgb(201, 67, 66) ;
+    color: white;
+}
