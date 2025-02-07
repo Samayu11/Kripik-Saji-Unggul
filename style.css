@@ -465,18 +465,15 @@ body{
 .singkong{
     width: 400px;
     height: 800px;
-    border-radius: 10px ;
+    /* border-radius: 10px ; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background: rgb(255,182,156);
-background: linear-gradient(0deg, rgba(255,182,156,1) 0%, rgba(255,255,255,1) 100%);
     margin-right: 20px;
     flex-wrap: wrap;
-    box-shadow: 8px 10px 33px -24px rgba(0,0,0,0.74);
--webkit-box-shadow: 8px 10px 33px -24px rgba(0,0,0,0.74);
--moz-box-shadow: 8px 10px 33px -24px rgba(0,0,0,0.74);
+    
 }
 
 .singkong-h1{
@@ -500,6 +497,7 @@ background: linear-gradient(0deg, rgba(255,182,156,1) 0%, rgba(255,255,255,1) 10
 
 
 .singkong-komp-list{
+    margin-left: 20px;
     letter-spacing: 3px;
     text-align: left;
 }
@@ -512,18 +510,15 @@ background: linear-gradient(0deg, rgba(255,182,156,1) 0%, rgba(255,255,255,1) 10
 .pangsit{
     width: 400px;
     height: 800px;
-    border-radius: 10px ;
+    /* border-radius: 10px ; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: rgb(241,124,89);
-    background: linear-gradient(0deg, rgba(241,124,89,1) 0%, rgba(255,255,255,1) 100%);
     margin-right: 20px;
     flex-wrap: wrap;
-    box-shadow: 8px 10px 33px -24px rgba(0,0,0,0.74);
--webkit-box-shadow: 8px 10px 33px -24px rgba(0,0,0,0.74);
--moz-box-shadow: 8px 10px 33px -24px rgba(0,0,0,0.74);
+    
    
 }
 
@@ -546,6 +541,7 @@ background: linear-gradient(0deg, rgba(255,182,156,1) 0%, rgba(255,255,255,1) 10
 }
 
 .pangsit-komp-list{
+    margin-left: 20px;
     letter-spacing: 3px;
     text-align: left;
 }
@@ -557,18 +553,15 @@ background: linear-gradient(0deg, rgba(255,182,156,1) 0%, rgba(255,255,255,1) 10
 .peyek{
     width: 400px;
     height: 800px;
-    border-radius: 10px ;
+    /* border-radius: 10px ; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background: rgb(191,124,97);
-background: linear-gradient(0deg, rgba(191,124,97,1) 0%, rgba(255,255,255,1) 100%);
     margin-right: 20px;
     flex-wrap: wrap;
-    box-shadow: 8px 10px 33px -24px rgba(0,0,0,0.74);
--webkit-box-shadow: 8px 10px 33px -24px rgba(0,0,0,0.74);
--moz-box-shadow: 8px 10px 33px -24px rgba(0,0,0,0.74);
+    
   
 }
 
@@ -592,6 +585,7 @@ background: linear-gradient(0deg, rgba(191,124,97,1) 0%, rgba(255,255,255,1) 100
 
 
 .peyek-komp-list{
+    margin-left: 20px;
     letter-spacing: 3px;
     text-align: left;
 }
@@ -599,18 +593,15 @@ background: linear-gradient(0deg, rgba(191,124,97,1) 0%, rgba(255,255,255,1) 100
 .basreng{
     width: 400px;
     height: 800px;
-    border-radius: 10px ;
+    /* border-radius: 4px ; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background: rgb(201,67,66);
-background: linear-gradient(0deg, rgba(201,67,66,1) 0%, rgba(255,255,255,1) 100%);
     margin-right: 20px;
     flex-wrap: wrap;
-    box-shadow: 8px 10px 33px -24px rgba(0,0,0,0.74);
--webkit-box-shadow: 8px 10px 33px -24px rgba(0,0,0,0.74);
--moz-box-shadow: 8px 10px 33px -24px rgba(0,0,0,0.74);
+
 }
 
 .basreng-h1{
@@ -634,6 +625,7 @@ background: linear-gradient(0deg, rgba(201,67,66,1) 0%, rgba(255,255,255,1) 100%
 }
 
 .basreng-komp-list{
+    margin-left: 20px;
     letter-spacing: 3px;
     text-align: left;
 }
@@ -879,10 +871,49 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================================================================================================================================================================
+============ FAQ STYLE END ===================================================================================================================================================================
+================================================================================================================================================================================================== */
+
 .faq-wrapper{
     width: 100%;
-    height: 1080px;
+    margin-top: 100px;
+    margin-bottom: 50px;
     background-color: transparent;
+}
+
+.faq-text{
+    text-align: center;
+}
+
+.faq-logo{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: auto;
+    color: #f2bc28;
+
 }
 
 .faq-section{
@@ -893,10 +924,65 @@ body{
 
 .faq-sec1{
     width: 500px;
-    height: 600px;
-    background-color: gray;
+    height: 510px;
+    background-color: white;
+    box-shadow: -5px -1px 94px -60px rgba(0,0,0,0.19);
+-webkit-box-shadow: -5px -1px 94px -60px rgba(0,0,0,0.19);
+-moz-box-shadow: -5px -1px 94px -60px rgba(0,0,0,0.19);
     margin-right: 20px;
+    padding: 50px;
 }
+
+.faq-title-h1{
+    font-family: "Quando", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5em;
+  margin-bottom: 20px;
+}
+
+.accordion-item{
+    border: none;
+    background-color: transparent;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.accordion-button{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    color: maroon;
+}
+
+
+
+
+
+
+
+
+
+/* =================================================================================================================================================================================================
+============ FAQ STYLE END ===================================================================================================================================================================
+================================================================================================================================================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
