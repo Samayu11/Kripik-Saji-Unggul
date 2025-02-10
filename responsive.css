@@ -24,23 +24,70 @@
         
     }
 
-    .text-anim{
-        bottom: 1050px;
-    }
-
-    .hero-info{
-        bottom: 950px
-    }
-
-    .learn-more{
-        bottom: 880px
-    }
-
     .faq-sec1{
         width: 500px;
         height: 550px;
     }
 
+    .singkong-text{
+        display: inline-flex;
+        width: 200px;
+        height: 200px;
+        /* background-color: red; */
+        position: relative;
+        top: -380px;
+        left: 400px;
+        color: #333333;
+    }
+
+    .arrowImage1{
+        position: absolute;
+        top: -20px;
+        left: 180px;
+        z-index: -1;
+    }
+
+    .imgProduct2{
+        position: relative;
+        top: -180px;
+        right: -100px;
+    }
+
+    .pangsitInfo{
+        position: relative;
+        bottom: -300px;
+        left: -100px;
+    }
+
+    .peyekText{
+        top: -400px;
+        left: 400px;
+    }
+
+    .arrowImage3{
+        margin-top: -300px;
+    }
+
+    .imgProduct4{
+        position: relative;
+        top: -200px;
+        right: -100px;
+    }
+
+    .arrowImage4{
+        top: 60px;
+    }
+
+    .basrengInfo{
+        position: relative;
+        bottom: -300px;
+        left: -100px;
+    }
+
+
+    .bestseller{
+        flex-wrap: nowrap;
+    }
 }
 
 @media (max-width:991px){
@@ -70,10 +117,95 @@
         height: 500px;
     }
 
+    .videoVideo{
+        width: 420px;
+        height: 230px;
+    }
+
+    .arrowImage1{
+        left: 90px;
+       top: 50px;
+    }
+
+    .imgProduct1{
+        position: relative;
+        width: 300px;
+        height: 300px;
+        bottom: -50px;
+    }
+
+    .productBg1{
+        width: 250px;
+        height: 250px;
+    }
+
+    .singkong-text{
+        top: -250px;
+        left: 300px;
+    }
+
+    .arrowImage2{
+        top: 70px;
+        right: 70px;
+    }
+
+
+    .imgProduct2{
+        position: relative;
+        width: 300px;
+        height: 300px;
+        bottom: -50px;
+    }
+
+    .productBg2{
+        width: 250px;
+        height: 250px;
+    }
+
+    .arrowImage3{
+        margin-top: -180px;
+        left: 100px;
+    }
+
+    .peyekInfo{
+        position: relative;
+        bottom: -120px;
+        left: -100px;
+    }
+
+    .imgProduct3{
+        position: relative;
+        width: 300px;
+        height: 300px;
+    }
+
+    .productBg3{
+        left: 25px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .arrowImage4{
+        right: 150px;
+    }
+
+    .imgProduct4{
+        position: relative;
+        width: 300px;
+        height: 300px;
+    }
+
+    .productBg4{
+        width: 250px;
+        height: 250px;
+    }
+
+    .basrengInfo{
+     
+    }
 
     .about-wrapper > .about-text{
         width: 700px;
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
         margin-top: 100px;
         margin-left: 20px;
     }
@@ -82,20 +214,6 @@
         margin-right: 50px ;
     }
 
-    .text-anim{
-        font-size: 1em;
-        bottom: 850px;
-    }
-
-    .hero-info{
-        font-size: 30px;
-        bottom: 780px
-    }
-
-    .learn-more{
-        font-size: 1em;
-        bottom: 720px
-    }
 
     .faq-section{
         display: flex;
@@ -134,7 +252,6 @@
 
     .about-wrapper > .about-text{
         width: 700px;
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
         margin-top: 100px;
         margin-left: 20px;
     }
@@ -142,7 +259,6 @@
     .footer-wrapper > .footer-info{
         font-size:8px;
         color: black;
-        /* background-color: green; */
     }
 
     .footer-management{
@@ -152,24 +268,6 @@
     .btn1{
         margin-top: 5px;
     }
-
-    .text-anim{
-        font-size: 1em;
-        bottom: 650px;
-    }
-
-    .hero-info{
-        font-size: 30px;
-        bottom: 580px
-    }
-
-    .learn-more{
-        font-size: 1em;
-        bottom: 520px
-    }
-
-
-
 
     .faq-section{
         display: flex;
@@ -226,25 +324,29 @@
     
     }
 
+    .product-wrapper{
+        flex-direction: column;
+        overflow: visible;
+    }
+
 
     .ph{
         display: block;
         margin-right: 30px;
     }
 
-    .text-anim{
-        font-size: 1em;
-        bottom: 640px;
+    .faq-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .hero-info{
-        font-size: 25px;
-        bottom: 580px
-    }
-
-    .learn-more{
-        font-size: 1em;
-        bottom: 520px
+    .faq-sec1{
+        width: 450px;
+        height:530px;
+        padding-top: -10px;
+        margin-bottom: 60px;
     }
 }
 
@@ -287,103 +389,6 @@
         overflow: visible;
         margin-right: 30px;
         margin-left: 30px;
-    }
-
-    .product-text{
-        margin: auto;
-        width: 300px;
-        text-align: center;
-        font-size: 12px;
-    }
-    .singkong{
-        width: 300px;
-        height: 620px;
-        margin-bottom: 50px;
-        margin-right: 20px;
-        /* border-radius: 10px ; */
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        background: rgb(255,182,156);
-        flex-wrap: wrap;
-     
-    }
-
-    .singkong-info{
-        margin-top: 36px;
-    }
-
-    .singkong-komposisi{
-        margin-top: 40px;
-    }
-
-    .pangsit{
-    width: 300px;
-    height: 650px;
-    margin-bottom: 50px;
-    margin-right: 20px;
-    /* border-radius: 10px ; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: rgb(241,124,89);
-    flex-wrap: wrap;
-    }
-
-    .pangsit-info{
-        margin-top: 36px;
-    }
-
-    .pangsit-komposisi{
-        margin-top: 40px;
-    }
-
-    .peyek{
-        width: 300px;
-        height: 650px;
-        margin-bottom: 50px;
-        margin-right: 20px;
-        /* border-radius: 10px ; */
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        background: rgb(191,124,97);  
-        flex-wrap: wrap;
-        
-    }
-
-    .peyek-info{
-        margin-top: 36px;
-    }
-
-    .peyek-komposisi{
-        margin-top: 40px;
-    }
-
-    .basreng{
-        width: 300px;
-        height: 650px;
-        margin-bottom: 50px;
-        margin-right: 20px;
-        /* border-radius: 4px ; */
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        background: rgb(201,67,66);
-        flex-wrap: wrap;
-  
-    }
-
-    .basreng-info{
-        margin-top: 36px;
-    }
-
-    .basreng-komposisi{
-        margin-top: 40px;
     }
 
     .contact{
@@ -430,21 +435,6 @@
         font-size: 15px;
     }
 
-    .text-anim{
-        font-size: 1em;
-        bottom: 850px;
-    }
-
-    .hero-info{
-        font-size: 25px;
-        bottom: 780px
-    }
-
-    .learn-more{
-        font-size: 1em;
-        bottom: 620px
-    }
-
     .faq-section{
         display: flex;
         flex-direction: column;
@@ -457,51 +447,6 @@
         height: 650px;
         padding-top: -10px;
         margin-bottom: 60px;
-    }
-}
- 
-
-@media (max-height:1000px){
-    .text-anim{
-        font-size: 1em;
-        bottom: 650px;
-    }
-
-    .hero-info{
-        font-size: 25px;
-        bottom: 580px
-    }
-
-    .learn-more{
-        font-size: 1em;
-        bottom: 540px
-    }
-
-    .lm-button{
-        width: 150px;
-        height:30px;
-    }
-}
-
-@media (max-height:900px){
-    .text-anim{
-        font-size: 1em;
-        bottom: 650px;
-    }
-
-    .hero-info{
-        font-size: 25px;
-        bottom: 580px
-    }
-
-    .learn-more{
-        font-size: 1em;
-        bottom: 520px
-    }
-
-    .lm-button{
-        width: 150px;
-        height:30px;
     }
 }
 
@@ -555,28 +500,6 @@
         font-size: 12px;
     }    
 
-    .text-anim{
-        right: 3px;
-        font-size: 1em;
-        bottom:500px;
-    }
-
-    .hero-info{
-        font-size: 20px;
-        bottom: 460px
-    }
-
-    .learn-more{
-        font-size: 1em;
-        bottom: 435px
-    }
-
-    .lm-button{
-        width: 150px;
-        height:30px;
-    }
-
-
     .faq-section{
         display: flex;
         flex-direction: column;
@@ -592,29 +515,6 @@
     }
 }
 
-@media( max-height:700px ){
-    .text-anim{
-        right: 3px;
-        font-size: 1em;
-        bottom:380px;
-    }
-
-    .hero-info{
-        font-size: 25px;
-        bottom: 330px
-    }
-
-    .learn-more{
-        font-size: 1em;
-        bottom: 310px
-    }
-
-    .lm-button{
-        width: 150px;
-        height:30px;
-    }
-
-}
 /* =================================================================================================================================================================================================
 ============ RESPONSIVE PHONE CSS ===================================================================================================================================================================
 ================================================================================================================================================================================================== */
