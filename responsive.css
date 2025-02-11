@@ -200,10 +200,6 @@
         height: 250px;
     }
 
-    .basrengInfo{
-     
-    }
-
     .about-wrapper > .about-text{
         width: 700px;
         margin-top: 100px;
@@ -315,8 +311,6 @@
         
     }
 
-   
-
     .menu-responsive{
         position: fixed;
         display: none;
@@ -369,14 +363,31 @@
         margin-right: 30px;
     }
 
+
+    .hero-banner{
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+    }
+
     .hero-banner > .hero-image{
         width: 100%;
         height: 400px;
         flex-wrap: wrap;
-        overflow: hidden;
+        margin-top: 100px;
+        transform: scale(1.5);
         
     }
 
+    .video-wrapp{
+        flex-direction: column;
+    }
+
+    .videoHero{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    
     .about-wrapper > .about-text{
         width: 400px;
         /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
@@ -386,9 +397,141 @@
 
     .product-wrapper{
         flex-direction: column;
-        overflow: visible;
-        margin-right: 30px;
-        margin-left: 30px;
+    }
+
+    .product-wrapper2{
+        flex-direction: column;
+    }
+
+    .product-title{
+        margin-bottom: -200px;
+    }
+
+    .singkongInfo{
+        position: relative;
+        bottom: -260px;
+        left: -200px;
+    }
+
+    .arrowImage1{
+        display: none;
+    }
+
+    .productBg2{
+        position: relative;
+        top: -500px;
+        right: -100px;
+    }
+
+    .pangsitInfo{
+        position: relative;
+        top: 250px;
+        left: 100px;
+    }
+    .arrowImage2{
+        display: none;
+    }
+
+    .imgProduct3{
+        top: -300px;
+    }
+
+    .productBg3{
+        top: -300px;
+    }
+
+    .peyekInfo{
+        position: relative;
+        left: -300px;
+        top: 80px;
+    }
+
+    .arrowImage3{
+        display: none;
+    }
+
+    
+    .imgProduct4{
+        top: -500px;
+        right: -100px;
+    }
+
+    .productBg4{
+        position: relative;
+        top: -800px;
+        right: -100px;
+    }
+
+    .basrengInfo{
+        position: relative;
+        top: -50px;
+        left: 100px;
+    }
+
+    .arrowImage4{
+        display: none;
+    }
+
+    .faq-wrapper{
+        margin-top: -500px;
+    }
+
+
+    .faq-title-h1{
+        display: inline-flex;
+        width: 200px;
+    }
+
+    .faq-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faq-sec1{
+        width: 400px;
+        height: 650px;
+        padding-top: -10px;
+        margin-bottom: 60px;
+    }
+
+    .accordion-button{
+        font-size: 20px;
+    }
+
+    .accordion-body{
+        font-size: 20px;
+    }
+
+
+
+    .bestseller{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #fff7e1;
+        padding: 50px;
+    }
+
+    .bs-productImg{
+        width: 350px;
+        height: 350px;
+        position: relative;
+        left: -150px;
+        margin-bottom: 50px;
+    }
+
+    .bs-product-name{
+        display: inline-flex;
+        width: 300px;
+    }
+
+    .bs-info{
+        width: 300px;
     }
 
     .contact{
@@ -409,7 +552,6 @@
         font-size: 12px;
         
     }
-
 
     .footer-sticker{
         margin-top: 20px;
@@ -434,20 +576,6 @@
     .info-h1{
         font-size: 15px;
     }
-
-    .faq-section{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .faq-sec1{
-        width: 300px;
-        height: 650px;
-        padding-top: -10px;
-        margin-bottom: 60px;
-    }
 }
 
 @media(max-width: 400px){
@@ -455,22 +583,23 @@
         margin-right: 15px;
     }
 
-
     .hero-banner > .hero-image{
         width: 100%;
         height: 400px;
         flex-wrap: wrap;
         overflow: hidden;
         }
-    
 
+    .product-title{
+        margin-bottom: -200px;
+    }
+    
     .about-wrapper > .about-text{
         width: 300px;
         /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
         margin-top: 40px;
         margin-left: 20px;
     }
-
 
     .about-wrapper > .about-text > .about-info{
         font-size: 12px;
@@ -481,7 +610,6 @@
 
     }
     
-
     .visi{
         display: inline-block;
         width: 180px;
@@ -498,7 +626,16 @@
         width: 100%;
         text-align: center;
         font-size: 12px;
-    }    
+    }
+
+    .imgProduct2{
+        right: -50px;
+    }
+
+    .pangsitInfo{
+        position: relative;
+        left: -20px;
+    }
 
     .faq-section{
         display: flex;
@@ -508,7 +645,7 @@
     }
 
     .faq-sec1{
-        width: 300px;
+        width: 380px;
         height: 650px;
         padding-top: -10px;
         margin-bottom: 60px;
