@@ -487,12 +487,15 @@
 
     .faq-wrapper{
         margin-top: -500px;
+        
     }
+    
 
 
     .faq-title-h1{
         display: inline-flex;
         width: 200px;
+        margin-left: -25px;
     }
 
     .faq-section{
@@ -503,10 +506,13 @@
     }
 
     .faq-sec1{
-        width: 400px;
+        width: 100%;
         height: 650px;
         padding-top: -10px;
         margin-bottom: 60px;
+        box-shadow: -2px 15px 15px -13px rgba(110,95,4,0.46);
+        -webkit-box-shadow: -2px 15px 15px -13px rgba(110,95,4,0.46);
+        -moz-box-shadow: -2px 15px 15px -13px rgba(110,95,4,0.46);
     }
 
     .accordion-button{
@@ -534,7 +540,7 @@
         width: 350px;
         height: 350px;
         position: relative;
-        left: -150px;
+        left: -130px;
         margin-bottom: 50px;
     }
 
@@ -548,7 +554,7 @@
     }
 
     .ctaButton{
-        margin-left: 80px;
+        margin-left: 115px;
     }
 
     .contact{
@@ -606,6 +612,18 @@
         flex-wrap: wrap;
         overflow: hidden;
         }
+
+        
+     .hero-title{
+        margin-left: 15px;
+        font-size: 3.3em;
+    }
+
+    
+     .hero-info{
+
+        font-size: 20px;
+    }
 
     .product-title{
         margin-bottom: -200px;
@@ -666,6 +684,26 @@
         height: 650px;
         padding-top: -10px;
         margin-bottom: 60px;
+    }
+
+   
+    .bs-productImg{
+        position: relative;
+        left: -158px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .bs-title{
+        font-size: 4em
+    }
+
+    .bs-product-name{
+        font-size: 4em;
+    }
+
+    .ctaButton{
+        margin-left: 85px;
     }
 }
 
