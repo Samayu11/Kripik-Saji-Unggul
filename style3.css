@@ -22,8 +22,7 @@
 
 .brand{
     margin-top: 2px;
-    margin-left: 160px;
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
 }
 
 .logo-navbar{
@@ -49,7 +48,6 @@
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 150px;
     border-radius: 20px;
    
 }
