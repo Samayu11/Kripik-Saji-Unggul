@@ -8,7 +8,6 @@ body{
     margin: 0;
     padding: 0;
     background-position: center;
-    /* background-image: url(assets/main-background.jpeg); */
     background-color: #f7f9f8;
     background-size: contain;
    
@@ -16,12 +15,15 @@ body{
   
 }
 
+
+
 /* =================================================================================================================================================================================================
 ============ NAVBAR STYLE ===================================================================================================================================================================
 ================================================================================================================================================================================================== */
 .navbar{
     width: 100%;
     display: inline-flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     backdrop-filter: blur(4px);
@@ -65,7 +67,6 @@ body{
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-right: 50px;
     margin-left: 150px;
     border-radius: 20px;
    
@@ -82,12 +83,30 @@ body{
     font-weight: bold;
     text-decoration: none;
     color: #333333;
-    background-color:transparen ;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+   
+}
+
+.navbar-item > .join-navbar{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    margin-right: 20px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: bold;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-radius: 20px;
    
 }
@@ -119,6 +138,14 @@ body{
     color: white;
 }
 
+
+.join-navbar:hover{
+    transition: all .5s ease;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color:#f2bc28 ;
+    color: white;
+}
 
 .product-navbar:hover{
     transition: all .5s ease;
@@ -159,67 +186,64 @@ body{
     flex-direction: column;
     position: absolute;
     z-index: 999999;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     backdrop-filter: blur(4px);
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.397);
 }
 
 .menu-responsive > .navbar-responsive{
+    display: flex;
+    justify-content:center;
+    align-items: center;
     flex-direction: column;
     margin-bottom: 250px;
-    margin-left: 300px;
-    
 }
 
 .menu-responsive > .navbar-responsive > .home-navbar{
-    font-size: 12px;
+    display: inline-flex;
+    margin-bottom: 20px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     color: black;
     background-color: transparent ;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: 50px;
-    margin-left: 150px;
-    border-radius: 20px;
+    border-bottom: solid 1px;
 }
 
 .menu-responsive > .navbar-responsive > .about-navbar{
-    font-size: 12px;
+    display: inline-flex;
+    margin-bottom: 20px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     color: black;
     background-color: transparent;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: 50px;
-    margin-left: 150px;
-    border-radius: 20px;
+    border-bottom: solid 1px;
 }
 
-.menu-responsive > .navbar-responsive > .product-navbar{
-    font-size: 12px;
+.menu-responsive > .navbar-responsive > .join-navbar{
+    display: inline-flex;
+    margin-bottom: 20px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     color: rgb(0, 0, 0);
     background-color: transparent ;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: 50px;
-    margin-left: 150px;
-    border-radius: 20px;
+    border-bottom: solid 1px;
 }
 
 
-
-
+.menu-responsive > .navbar-responsive > .product-navbar{
+    display: inline-flex;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: transparent ;
+    border-bottom: solid 1px;
+}
 /* =================================================================================================================================================================================================
 ============ NAVBAR STYLE END ===================================================================================================================================================================
 ================================================================================================================================================================================================== */
@@ -256,23 +280,10 @@ body{
 /* =================================================================================================================================================================================================
 ============ HERO STYLE ===================================================================================================================================================================
 ================================================================================================================================================================================================== */
-
-/* .hero-brand{
-    position: absolute;
-    bottom: 300px;
-    right: 200px;
-    
-}
-
-.brand-logo{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-
-} */
- 
-
 .hero-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color:#fff7e1;
 }
 
@@ -287,15 +298,14 @@ body{
 
 .hero-info{
     font-family: "Quando", serif;
-  font-weight: 400;
   font-style: normal;
-    position: absolute;
+    position: relative;
     bottom: 10px;
     right: 20px;
     text-align: end;
-    font-size: 40px;
+    font-size: 30px;
     color:#333333;
-    font-weight: bold;
+  
 }
 
 
@@ -303,14 +313,10 @@ body{
     from{ width: 0;}
 }
 
-.text-anim{
-    position: absolute;
-    bottom: 100px;
-    right: 20px;
-    margin-bottom: 10px;
-}
-
-.text-anim > .hero-title{
+ .hero-title{   
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-size: 4em;
     color: rgb(201, 67, 66);
     font-weight: bold;
@@ -322,36 +328,6 @@ body{
     typing 2s alternate infinite;
     
 }
-
-.learn-more{
-    font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: bold;
-    position: absolute;
-    bottom:-90px;
-    right: 20px;
-}
-
-.lm-button{
-    font-size: 2em;
-    color: white;
-    text-decoration: none;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 250px;
-    height:50px;
-    border-radius: 8px;
-    background-color: rgb(201, 67, 66);
-}
-
-
-.lm-button:hover{
-    color: rgb(201, 67, 66);
-    background-color: rgba(201, 66, 66, 0.233)
-}
-
 
 .video-wrapp{
     display: flex;

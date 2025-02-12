@@ -306,9 +306,6 @@
     .menu-responsive.hidden{
         transition: all .5s ease;
         display: flex;
-        
-        
-        
     }
 
     .menu-responsive{
@@ -346,8 +343,17 @@
 
 
 @media (max-width:450px){
+    .container-main{
+        position: relative;
+        overflow: hidden;
+    }
+
     .brand{
         margin-left: 40px;
+    }
+
+    .navbar{
+        width: 400px;
     }
 
     .navbar-item{
@@ -372,11 +378,18 @@
 
     .hero-banner > .hero-image{
         width: 100%;
-        height: 400px;
+        height: 400px;  
         flex-wrap: wrap;
         margin-top: 100px;
+        position: absolute;
+        z-index: -;
         transform: scale(1.5);
         
+    }
+
+    .heroText{
+        position: relative;
+        bottom: -200px;
     }
 
     .video-wrapp{
@@ -532,6 +545,10 @@
 
     .bs-info{
         width: 300px;
+    }
+
+    .ctaButton{
+        margin-left: 80px;
     }
 
     .contact{
