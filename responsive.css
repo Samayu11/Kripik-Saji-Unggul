@@ -5,10 +5,11 @@
 
 @media (max-width:1110px){
     .brand{
-        margin-left: 100px;
+        margin-left:20px;
+        margin-right: 15px;
     }
     .navbar-item > .home-navbar{
-        margin-left: 50px;
+        margin-left: 0px;
     }
     .navbar-item > .product-navbar{
         margin-right: 0px;
@@ -88,12 +89,17 @@
     .bestseller{
         flex-wrap: nowrap;
     }
+
+    .about-img-suwarni{
+        width: 300px;
+        height: 200px;
+    }
 }
 
 @media (max-width:991px){
-
     .brand{
-        margin-left: 100px;
+        margin-left:20px;
+        margin-right: 10px;
     }
 
     .navbar{
@@ -101,11 +107,32 @@
     }
 
     .navbar-item > .product-navbar{
-        margin-right: 45px;
+        font-size: 10px;
+        margin-right: 2px;
     }
 
     .navbar-item > .home-navbar{
-        margin-left: 0px;
+        font-size: 10px;
+    }
+
+    .navbar-item > .about-navbar{
+        margin-left: 2px;
+        font-size: 10px;
+    }
+
+    .navbar-item > .project-navbar{
+        margin-left: 2px;
+        font-size: 10px;
+    }
+
+    .navbar-item > .coBrand-navbar{
+        margin-left: 2px;
+        font-size: 10px;
+    }
+
+    .navbar-item > .join-navbar{
+        margin-left: 2px;
+        font-size: 10px;
     }
 
     .socialmedia{
@@ -113,8 +140,16 @@
     }
 
     .hero-banner > .hero-image{
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: 400px;
+        margin-left: -40px;
+    }
+
+    .hero-title{
+        font-size: 4em;
+    }
+    .hero-info{
+        font-size: 25px;
     }
 
     .videoVideo{
@@ -222,6 +257,106 @@
         width: 300px;
         height: 710px;
     }
+
+    .container-about{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .about-infowrapper{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-img-suwarni{
+        width: 669px;
+        height: 423px;
+        margin-bottom: 50px;
+    }
+
+    .management-wrappper{
+        margin-top: 700px;
+    }
+
+    .suwarniText{
+        width: 400px;
+    }
+
+    .winstonText{
+        width: 400px;
+    }
+
+    .kimsenText{
+        width: 400px;
+    }
+ }
+
+ @media only screen and (max-width: 800px){
+  
+
+    .brand{
+        position: relative;
+        left: -35px;
+    }
+
+    .content-wrap{
+        overflow: hidden;
+    }
+
+    .navbar-item{
+        margin-left: -40px;
+    }
+
+    .navbar-item > .home-navbar{
+        font-size: 10px;
+    }
+
+    .navbar-item > .about-navbar{
+        margin-left: 2px;
+        font-size: 10px;
+    }
+
+    .navbar-item > .product-navbar{
+        font-size: 10px;
+        margin-right: 2px;
+    }
+
+    .navbar-item > .project-navbar{
+        margin-left: -30px;
+        font-size: 10px;
+    }
+
+    .navbar-item > .coBrand-navbar{
+        margin-left: 2px;
+        font-size: 10px;
+    }
+
+    .navbar-item > .join-navbar{
+        margin-left: 2px;
+        font-size: 10px;
+    }
+
+    .socialmedia{
+        display: none;
+    }
+
+    .hero-banner > .hero-image{
+        width: 300px;
+        height: 300px;
+        margin-left: -90px;
+    }
+
+    .heroText{
+        margin-left: -90px;
+    }
+
+    .hero-title{
+        font-size: 4em;
+    }
+    .hero-info{
+        font-size: 25px;
+    }
  }
 
 
@@ -277,6 +412,10 @@
         height: 750px;
         padding-top: -10px;
         margin-bottom: 60px;
+    }
+
+    .container-about{
+        width: 100%;
     }
 }
 
@@ -343,6 +482,11 @@
 
 
 @media (max-width:450px){
+
+    .product-container{
+        overflow-wrap: normal;
+    }
+
     .container-main{
         position: relative;
         overflow: hidden;
@@ -351,10 +495,10 @@
     .brand{
         margin-left: 40px;
     }
-/* 
+
     .navbar{
-        width: 400px;
-    } */
+        width:100%;
+    }
 
     .navbar-item{
         display: none;
@@ -389,7 +533,12 @@
 
     .heroText{
         position: relative;
+        right: -120px;
         bottom: -200px;
+    }
+
+    .hero-info{
+        width: 400px;
     }
 
     .video-wrapp{
@@ -490,8 +639,6 @@
         
     }
     
-
-
     .faq-title-h1{
         display: inline-flex;
         width: 200px;
@@ -572,7 +719,7 @@
     }
 
     .footer-management{
-        font-size: 12px;
+        font-size: 15px;
         
     }
 
@@ -599,7 +746,111 @@
     .info-h1{
         font-size: 15px;
     }
+
+    .hero-about-wrapper{
+        width:100%;
+        flex-direction: column;
+    }
+
+    .hero-title-about-h1{
+        display: none;
+        font-size: 5em;
+        width: 200px;
+    }
+
+    .hero-imgAbout{
+        display:none ;
+        width: 300px;
+        height: 300px;
+    }
+
+    .container-about{
+        position: relative;
+        overflow: hidden;
+    }
+
+    .about-infowrapper{
+        flex-direction: column;
+    }
+    .about-img-suwarni{
+        display: none;
+        margin-left: 60px;
+        margin-bottom: 20px;
+    }
+
+    .about-info{
+        width: 100%;
+        margin-top: 200px;
+        padding-left: 10px;
+        padding-right: 10px;
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+    .about-visimisi{
+        width: 400px;
+        font-size: 15px;
+    }
+
+    .about-mean{
+        width: 100%;
+    }
+
+    .management-wrappper{
+        margin-top: 950px;
+    }
+
+    .ibusuwarni-inf{
+        flex-direction: column-reverse;
+    }
+
+    .suwarniText{
+        font-size: 15px;
+        margin-bottom: 20px;
+        width: 400px;
+    }
+
+    .suwarniImg{
+        margin-bottom: 20px;
+    }
+
+    .masawin-inf{
+        flex-direction: column;
+    }
+
+    .winstonText{
+        font-size: 15px;
+        margin-bottom: 20px;
+        width: 400px;
+    }
+
+    .winstonImg{
+        margin-bottom: 20px;
+    }
+    
+    .kimsen-inf{
+        flex-direction: column-reverse;
+    }
+
+    .kimsenText{
+        font-size: 15px;
+        width: 400px;
+    }
+
+    .kimsenIMg{
+        margin-bottom: 20px;
+    }
+
+    .menuContact-ul{
+        width: 300px;
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        position: absolute;
+        margin-top: 150px;
+    }
+    
 }
+
 
 @media(max-width: 400px){
     .navbar-item > .product-navbar{
@@ -611,19 +862,25 @@
         height: 400px;
         flex-wrap: wrap;
         overflow: hidden;
-        }
+    }
+
+    
+    .heroText{
+        position: relative;
+        right: -80px;
+        bottom: -200px;
+     }
+
+    .hero-info{
+        width: 400px;
+        font-size: 20px;
+    }
 
         
      .hero-title{
         margin-left: 15px;
-        font-size: 3.3em;
     }
-
     
-     .hero-info{
-
-        font-size: 20px;
-    }
 
     .product-title{
         margin-bottom: -200px;
@@ -685,8 +942,6 @@
         padding-top: -10px;
         margin-bottom: 60px;
     }
-
-   
     .bs-productImg{
         position: relative;
         left: -158px;
@@ -705,8 +960,53 @@
     .ctaButton{
         margin-left: 85px;
     }
-}
 
+    .contact{
+        margin-top: 50px;
+        
+    }
+
+    .about-img-suwarni{
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+
+    .about-info{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+    .about-visimisi{
+        padding-left: 15px;
+        padding-right: 10px;
+       
+    }
+
+    .about-mean{
+        width:100%;
+    }
+
+    .management-wrappper{
+        margin-top: 1000px;
+    }
+
+    .suwarniText{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .winstonText{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .kimsenText{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
 /* =================================================================================================================================================================================================
 ============ RESPONSIVE PHONE CSS ===================================================================================================================================================================
 ================================================================================================================================================================================================== */

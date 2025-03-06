@@ -2,21 +2,28 @@
     margin: 0;
     padding:-0;
 }
-
-
 body{
     margin: 0;
     padding: 0;
     background-position: center;
     background-color: #f7f9f8;
     background-size: contain;
-   
-
-  
 }
 
+.marker{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+}
 
-
+.marker-red{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    color: #a51904;
+}
 /* =================================================================================================================================================================================================
 ============ NAVBAR STYLE ===================================================================================================================================================================
 ================================================================================================================================================================================================== */
@@ -32,27 +39,22 @@ body{
     transition: 0.6s;
     z-index: 9999999;
 }
-
 .navbar.sticky{
     backdrop-filter: blur(4px);
     background-color: white;
 }
-
 .brand{
     margin-top: 2px;
     margin-left: 160px;
     margin-bottom: 5px;
 }
-
 .logo-navbar{
 
     border-radius: 50%;
 }
-
 .navbar-brand{
     color: rgb(201, 67, 66);
 }
-
 .navbar-item > .home-navbar{
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-family: "Montserrat", serif;
@@ -67,11 +69,8 @@ body{
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 150px;
     border-radius: 20px;
-   
 }
-
 .navbar-item > .about-navbar{
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     margin-right: 20px;
@@ -89,26 +88,6 @@ body{
     padding-right: 15px;
     margin-left: 50px;
     border-radius: 20px;
-   
-}
-
-.navbar-item > .join-navbar{
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    margin-right: 20px;
-    font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: 12px;
-    font-weight: bold;
-    font-weight: bold;
-    text-decoration: none;
-    color: #333333;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 20px;
-   
 }
 
 .navbar-item > .product-navbar{
@@ -130,41 +109,87 @@ body{
   
 }
 
+.navbar-item > .project-navbar{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    margin-right: 20px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: bold;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+
+.navbar-item > .coBrand-navbar{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    margin-right: 20px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: bold;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+
+
+.navbar-item > .join-navbar{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    margin-right: 20px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: bold;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
 .about-navbar:hover{
     transition: all .5s ease;
-    border-radius: 20px;
+   
     text-decoration: none;
     background-color:#f2bc28 ;
     color: white;
 }
-
-
 .join-navbar:hover{
     transition: all .5s ease;
-    border-radius: 20px;
+
     text-decoration: none;
     background-color:#f2bc28 ;
     color: white;
 }
-
 .product-navbar:hover{
     transition: all .5s ease;
-    border-radius: 20px;
+
     text-decoration: none;
     background-color:#f2bc28;
     color: white;
 }
-
 .home-navbar:hover{
     transition: all .5s ease;
-    border-radius: 20px;
+
     text-decoration: none;
     background-color:#f2bc28;
     color: white;
-}
-
-.socialmedia{
-    margin-left: 160px;
 }
 
 .socialmedia > .icon-navbar{
@@ -172,12 +197,10 @@ body{
     color: black;
     margin-right: 20px;
 }
-
 .ph{
     display: none;
     font-size: 40px;
 }
-
 .menu-responsive{
     /* display: flex; */
     display: none;
@@ -191,7 +214,6 @@ body{
     backdrop-filter: blur(4px);
     background-color: rgba(255, 255, 255, 0.397);
 }
-
 .menu-responsive > .navbar-responsive{
     display: flex;
     justify-content:center;
@@ -199,7 +221,6 @@ body{
     flex-direction: column;
     margin-bottom: 250px;
 }
-
 .menu-responsive > .navbar-responsive > .home-navbar{
     display: inline-flex;
     margin-bottom: 20px;
@@ -210,7 +231,6 @@ body{
     background-color: transparent ;
     border-bottom: solid 1px;
 }
-
 .menu-responsive > .navbar-responsive > .about-navbar{
     display: inline-flex;
     margin-bottom: 20px;
@@ -232,9 +252,29 @@ body{
     background-color: transparent ;
     border-bottom: solid 1px;
 }
-
-
 .menu-responsive > .navbar-responsive > .product-navbar{
+    display: inline-flex;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: transparent ;
+    border-bottom: solid 1px;
+}
+
+.menu-responsive > .navbar-responsive > .project-navbar{
+    display: inline-flex;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: transparent ;
+    border-bottom: solid 1px;
+}
+
+.menu-responsive > .navbar-responsive > .coBrand-navbar{
     display: inline-flex;
     margin-bottom: 20px;
     font-size: 20px;
@@ -249,12 +289,6 @@ body{
 ================================================================================================================================================================================================== */
 
 
-
-
-
-
-
-
 .title-wrap{
     width: 100%;
     height: 200px;
@@ -263,20 +297,13 @@ body{
     align-items: center;
     text-align: center;
     margin-top: 500px;
-    
 }
-
 .product-title{
     font-size: 5em;
     font-family: "Quando", serif;
   font-weight: 400;
   font-style: normal;
-    
-
 }
-
-
-
 /* =================================================================================================================================================================================================
 ============ HERO STYLE ===================================================================================================================================================================
 ================================================================================================================================================================================================== */
@@ -286,16 +313,12 @@ body{
     align-items: center;
     background-color:#fff7e1;
 }
-
-
 .hero-banner > .hero-image{
     margin-top: 10px;
     margin-left: 10px;
     width: 700px;
     height: 700px;
-
 }
-
 .hero-info{
     font-family: "Quando", serif;
   font-style: normal;
@@ -305,14 +328,10 @@ body{
     text-align: end;
     font-size: 30px;
     color:#333333;
-  
 }
-
-
 @keyframes typing {
     from{ width: 0;}
 }
-
  .hero-title{   
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
@@ -328,7 +347,6 @@ body{
     typing 2s alternate infinite;
     
 }
-
 .video-wrapp{
     display: flex;
     justify-content: space-between;
@@ -343,13 +361,11 @@ body{
     padding-bottom: 50px;
    
 }
-
 .videoText{
     width: 400px;
     margin-left: 100px;
-
+    letter-spacing: 2px;
 }
-
 .videoTitle{
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
@@ -357,15 +373,12 @@ body{
     font-weight: bold;
     font-size: 4em;
 }
-
-
 .videoInfo{
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 15px;
 }
-
 .videoHero{
     box-shadow: 1px 1px 56px 9px rgba(0,0,0,0.29);
     -webkit-box-shadow: 1px 1px 56px 9px rgba(0,0,0,0.29);
@@ -374,79 +387,6 @@ body{
 /* =================================================================================================================================================================================================
 ============ HERO STYLE END ===================================================================================================================================================================
 ================================================================================================================================================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-/* =================================================================================================================================================================================================
-============ ABOUT STYLE ===================================================================================================================================================================
-================================================================================================================================================================================================== */
-.about-wrapper{
-    width: 100%;
-    padding-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-}
-
-.about-wrapper > .about-text{
-    width: 900px;
-    margin-top: 100px;
-    margin-left: 20px;
-}
-
-.about-wrapper > .about-text > .about-title{
-    text-transform: capitalize;
-    color: black;
-    text-align: center;
-    font-weight: bold;
-}
-
-.about-wrapper > .about-text > .about-info{
-    font-size: 20px;
-    text-transform: capitalize;
-    color: black;
-    text-align: center;
-}
-
-.sticker-about{
-    width: 600px;
-    height: 250px;
-}
-
-.visi{
-    width: 400px;
-    font-size: 20px;
-    text-align: center;
-}
-
-.mark-text{
-    padding: 8px;
-    border-radius: 8px;
-    color: black;
-    background-color: rgb(201, 67, 66);
-}
-/* =================================================================================================================================================================================================
-============ ABOUT STYLE END ===================================================================================================================================================================
-================================================================================================================================================================================================== */
-
-
-
-
-
-
-
-
 
 
 
@@ -464,7 +404,6 @@ body{
    
    position: relative;
 }
-
 .product-wrapper2{
     display: flex;
     justify-content: space-between;
@@ -472,19 +411,15 @@ body{
    margin-bottom: 20px;
    position: relative;
 }
-
-
 .imgProduct1{
     z-index: 2;
     transform: rotate(20deg);
 }
-
 .arrowImage1{
     position: absolute;
     left: 180px;
     z-index: -1;
 }
-
 .productBg1{
     width: 300px;
     height: 300px;
@@ -495,7 +430,6 @@ body{
     top: 100px;
     left: 30px;
 }
-
 .singkong-text{
     display: inline-flex;
     width: 200px;
@@ -504,9 +438,8 @@ body{
     position: relative;
     top: -180px;
     color: #333333;
+    letter-spacing: 2px;
 }
-
-
 .singkongTitle{
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
@@ -519,16 +452,9 @@ body{
     font-style: normal;
     font-size: 15px;
 }
-
-
-
-
-
-
 .imgProduct2{
     transform: rotate(-20deg);
 }
-
 .arrowImage2{
     margin-top: 90px;
     position: absolute;
@@ -536,7 +462,6 @@ body{
     right: 220px ;
     z-index: -1;
 }
-
 .productBg2{
     width: 300px;
     height: 300px;
@@ -547,32 +472,28 @@ body{
     top: 100px;
     right: 15px;
 }
-
 .pangsiText{
     display: inline-flex;
     width: 200px;
     height: 200px;
     color: #333333;
+    letter-spacing: 2px;
 }
-
 .pangsitTitle{
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: bold;
 }
-
 .pangsitInfo{
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 15px;
 }
-
 .imgProduct3{
     transform: rotate(20deg);
 }
-
 .arrowImage3{
     position: absolute;
     z-index: -1;
@@ -580,7 +501,6 @@ body{
     margin-top: 200px;
     left: 200px;
 }
-
 .productBg3{
     width: 300px;
     height: 300px;
@@ -591,7 +511,6 @@ body{
     top: 100px;
     left: 80px;
 }
-
 .peyekText{
     display: inline-flex;
     width: 200px;
@@ -599,28 +518,23 @@ body{
     position: relative;
     top: -150px;
     color: #333333;
+    letter-spacing: 2px;
 }
-
-
 .peyekTitle{
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: bold;
 }
-
 .peyekInfo{
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 15px;
 }
-
-
 .imgProduct4{
     transform: rotate(-20deg);
 }
-
 .arrowImage4{
     position: absolute;
     right: 220px ;
@@ -628,7 +542,6 @@ body{
     z-index: -1;
     transform: rotate(-60deg) scaleX(-1);
 }
-
 .productBg4{
     width: 300px;
     height: 300px;
@@ -639,29 +552,25 @@ body{
     top: 100px;
     right: 15px;
 }
-
-
 .basrengText{
     display: inline-flex;
     width: 200px;
     height: 200px;
     color: #333333;
+    letter-spacing: 2px;
 }
-
 .basrengTitle{
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: bold;
 }
-
 .basrengInfo{
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 15px;
 }
-
 .product-card{
     display: flex;
     justify-content: center;
@@ -677,23 +586,10 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* =================================================================================================================================================================================================
 ============ CARD STYLE ===================================================================================================================================================================
 ================================================================================================================================================================================================== */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
-
 *{
    font-family: 'Nunito', sans-serif;
    margin:0; padding:0;
@@ -703,36 +599,30 @@ body{
    transition: all .2s linear;
    text-transform: capitalize;
 }
-
 html{
    font-size: 62.5%;
    overflow-x: hidden;
 }
-
 body{
    /* background: #af2121; */
 }
-
 .container{
    max-width: 1200px;
    margin:0 auto;
    padding:3rem 2rem;
 }
-
-.container .title{
+/* .container .title{
    font-size: 3.5rem;
-   color:#cecb1a;
+   color:#333333;
    margin-bottom: 3rem;
    text-transform: uppercase;
    text-align: center;
-}
-
+} */
 .container .products-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
    gap:2rem;
 }
-
 .container .products-container .product{
    text-align: center;
    padding:3rem 2rem;
@@ -742,35 +632,28 @@ body{
    outline-offset: -1.5rem;
    cursor: pointer;
 }
-
 .container .products-container .product:hover{
    outline: .2rem solid #222;
    outline-offset: 0;
 }
-
 .container .products-container .product img{
    height: 25rem;
 }
-
 .container .products-container .product:hover img{
    transform: scale(.9);
 }
-
 .container .products-container .product h3{
    padding:.5rem 0;
    font-size: 2rem;
    color:#444;
 }
-
 .container .products-container .product:hover h3{
    color:#27ae60;
 }
-
 .container .products-container .product .price{
    font-size: 2rem;
    color:#444;
 }
-
 .products-preview{
    position: fixed;
    top:0; left:0;
@@ -780,8 +663,8 @@ body{
    display: none;
    align-items: center;
    justify-content: center;
+   z-index: 999999999999999;
 }
-
 .products-preview .preview{
    display: none;
    padding:2rem;
@@ -791,15 +674,12 @@ body{
    margin:2rem;
    width: 40rem;
 }
-
 .products-preview .preview.active{
    display: inline-block;
 }
-
 .products-preview .preview img{
    height: 15rem;
 }
-
 .products-preview .preview .fa-times{
    position: absolute;
    top:1rem; right:1.5rem;
@@ -807,50 +687,41 @@ body{
    color:#444;
    font-size: 4rem;
 }
-
 .products-preview .preview .fa-times:hover{
    transform: rotate(90deg);
 }
-
 .products-preview .preview h3{
    color:#444;
    padding:.5rem 0;
    font-size: 2.5rem;
 }
-
 .products-preview .preview .stars{
    padding:1rem 0;
    font-size: 1.7rem;
 }
-
 .products-preview .preview .stars i{
    color:#27ae60;
 }
-
 .products-preview .preview .stars span{
    color:#999;
 }
-
 .products-preview .preview p{
    line-height: 1.5;
    padding:1rem 0;
    font-size: 1.6rem;
    color:#777;
 }
-
 .products-preview .preview .price{
    padding:1rem 0;
    font-size: 2.5rem;
    color:#27ae60;
 }
-
 .products-preview .preview .buttons{
    display: flex;
    gap:1.5rem;
    flex-wrap: wrap;
    margin-top: 1rem;
 }
-
 .products-preview .preview .buttons a{
    flex:1 1 16rem;
    padding:1rem;
@@ -858,44 +729,31 @@ body{
    color:#444;
    border:.1rem solid #444;
 }
-
 .products-preview .preview .buttons a.cart{
    background: #444;
    color:#fff;
 }
-
 .products-preview .preview .buttons a.cart:hover{
    background: #111;
 }
-
 .products-preview .preview .buttons a.buy:hover{
    background: #444;
    color:#fff;
 }
-
-
 @media (max-width:991px){
-
    html{
       font-size: 55%;
    }
-
 }
-
 @media (max-width:768px){
-
    .products-preview .preview img{
       height: 25rem;
    }
-
 }
-
 @media (max-width:450px){
-
-   /* html{
+   html{
       font-size: 50%;
-   } */
-
+   }
 }
 /* =================================================================================================================================================================================================
 ============ CARD STYLE END ===================================================================================================================================================================
@@ -905,37 +763,18 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* =================================================================================================================================================================================================
 ============ FAQ STYLE END ===================================================================================================================================================================
 ================================================================================================================================================================================================== */
-
 .faq-wrapper{
     width: 100%;
     margin-top: 100px;
     margin-bottom: 50px;
     background-color: transparent;
 }
-
 .faq-text{
     text-align: center;
 }
-
 .faq-logo{
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
@@ -947,13 +786,11 @@ body{
     color: #f2bc28;
 
 }
-
 .faq-section{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .faq-sec1{
     width: 500px;
     height: 510px;
@@ -964,7 +801,6 @@ body{
     margin-right: 20px;
     padding: 50px;
 }
-
 .faq-title-h1{
     font-family: "Quando", serif;
   font-weight: 400;
@@ -972,14 +808,12 @@ body{
   font-size: 5em;
   margin-bottom: 20px;
 }
-
 .accordion-item{
     border: none;
     background-color: transparent;
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
 .accordion-button{
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
@@ -987,24 +821,9 @@ body{
     font-size: 15px;
     color: maroon;
 }
-
 /* =================================================================================================================================================================================================
 ============ FAQ STYLE END ===================================================================================================================================================================
 ================================================================================================================================================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1022,15 +841,11 @@ body{
     background-color: #fff7e1;
     padding: 50px;
 }
-
-
 .bs-text{
     width: 600px;
     color: #333333;
     /* background-color: #fff; */
 }
-
-
 .bs-title{
     font-family: "Quando", serif;
     font-weight: 400;
@@ -1040,8 +855,6 @@ body{
     margin-bottom: 20px;
     color: #333333;
 }
-
-
 .bs-product-name{
     font-family: "Quando", serif;
     font-weight: 400;
@@ -1050,7 +863,6 @@ body{
     font-weight:normal;
     margin-bottom: 40px;
 }
-
 .bs-info{
     display: inline-block;
     font-family: "Montserrat", serif;
@@ -1058,24 +870,24 @@ body{
     font-style: normal;
     font-size: 15px;
     color: #333333;
+    letter-spacing: 2px;
 }
-
 .bs-basreng-komposisi{
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 15px;
     color: #333333;
+    letter-spacing: 2px;
 }
-
 .bs-basreng-komp-list{
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 15px;
     color: #333333;
+    letter-spacing: 2px;
 }
-
 .ctaButton{
     display: inline-flex;
     width: 120px;
@@ -1096,20 +908,16 @@ body{
     color: #333333;
     text-decoration: none;
 }
-
 .ctaButton:hover{
     background-color: #f2bc28;
     color: white;
 }
-
 .bs-productImg{
     border-radius: 20px;
     box-shadow: 1px 1px 56px 9px rgba(0,0,0,0.29);
 -webkit-box-shadow: 1px 1px 56px 9px rgba(0,0,0,0.29);
 -moz-box-shadow: 1px 1px 56px 9px rgba(0,0,0,0.29);
 }
-
-
 /*=================================================================================================================================================================================================
 ============ BESTSELLER ===================================================================================================================================================================
 ================================================================================================================================================================================================== */
@@ -1120,6 +928,68 @@ body{
 /* =================================================================================================================================================================================================
 ============ CONTACT STYLE ===================================================================================================================================================================
 ================================================================================================================================================================================================== */
+.footer-wrapp{
+    background-color: #a51904;
+    box-shadow: -3px 39px 20px -24px rgba(0,0,0,0.19) inset;
+-webkit-box-shadow: -3px 39px 20px -24px rgba(0,0,0,0.19) inset;
+-moz-box-shadow: -3px 39px 20px -24px rgba(0,0,0,0.19) inset;
+}
+
+.brandContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoContact{
+    position: absolute;
+    border-radius: 50%;
+}
+
+.menuContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuContact-ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    position: absolute;
+    margin-top: 150px;
+}
+
+.menuContact-li1{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.sosmedContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.sosmedContact-ul{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.sosmedContact-li1{
+    color: white;
+    font-size: 20px;
+}
+
 .contact{
     display: flex;
     justify-content: space-between;
@@ -1127,27 +997,32 @@ body{
     width: 100%;
     height: 250px;
     padding: 30px;
-    background-image: url(assets/background.jpg);
-    background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
+.contact-h1{
+    font-family: "Quando", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5em;
+    font-weight:bold;
+    color: #f2bc28;
+}
 
 .contact-teks{
     color: white;
 
 }
-
 .footer-management{
-    font-size: 20px;
-    text-transform: lowercase;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
 }
-
 .contact-btn{
     margin-right: 200px ;
 }
-
 .btn1{
     border: 1px solid white;
     border-radius: 10px;
@@ -1157,8 +1032,6 @@ body{
     background-color: transparent;
     backdrop-filter: blur(8px);
 }
-
-
 .btn1:hover{
     transition: all .5s ease;
     color: black;
@@ -1167,72 +1040,6 @@ body{
 /* =================================================================================================================================================================================================
 ============  CONTACT STYLE END ===================================================================================================================================================================
 ================================================================================================================================================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* =================================================================================================================================================================================================
-============ FOOTER STYLE ===================================================================================================================================================================
-================================================================================================================================================================================================== */
-
-.footer-wrapper{
-    width: 100%;
-    height: 250px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-  padding-right: 20px;
-  padding-left: 20px;
-  background-color: white;
-}
-
-.footer-sticker{
-    width: 150px;
-    height: 50x;
-    border-radius: 18px;
-}
-
-.footer-wrapper > .footer-company{
-    font-size: 38px;
-    color: black;
-    /* background-color: blue; */
-}
-
-.footer-wrapper > .footer-info{
-    font-size: 10px;
-    color: black;
-    /* background-color: green; */
-}
-
-.footer-media > .media-list{
-    list-style: none;
-    margin-bottom: 28px;
-    font-size: 28px;
-}
-
-.icon-footer{
-    font-size: 30px;
-    padding: 10px;
-    background-color: rgba(211, 56, 170, 0.489);
-    border-radius: 8px;
-    color: white;
-    text-decoration: none;
-}
-
-.info-h1{
-    font-size: 28px;
-}
-
 .copyright{
     display: flex;
     justify-content: center;
@@ -1240,8 +1047,5 @@ body{
     width: 100%;
     height: 50px;
     color: white;
-    background-color:#2c2c2c;
+    background-color:#a51904;
 }
-/* =================================================================================================================================================================================================
-============ FOOTER STYLE END ===================================================================================================================================================================
-================================================================================================================================================================================================== */

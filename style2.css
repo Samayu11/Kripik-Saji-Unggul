@@ -12,7 +12,7 @@
     background-color: transparent;
     position: fixed !important;
     transition: 0.6s;
-    z-index: 9999999;
+    z-index: 999999999999;
 }
 
 .navbar.sticky{
@@ -49,7 +49,6 @@
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 150px;
     border-radius: 20px;
    
 }
@@ -115,40 +114,33 @@
 
 .about-navbar:hover{
     transition: all .5s ease;
-    border-radius: 20px;
+   
     text-decoration: none;
     background-color:#f2bc28 ;
     color: white;
 }
-
-
 .join-navbar:hover{
     transition: all .5s ease;
-    border-radius: 20px;
+
     text-decoration: none;
     background-color:#f2bc28 ;
     color: white;
 }
-
 .product-navbar:hover{
     transition: all .5s ease;
-    border-radius: 20px;
+
     text-decoration: none;
     background-color:#f2bc28;
     color: white;
 }
-
 .home-navbar:hover{
     transition: all .5s ease;
-    border-radius: 20px;
+
     text-decoration: none;
     background-color:#f2bc28;
     color: white;
 }
 
-.socialmedia{
-    margin-left: 160px;
-}
 
 .socialmedia > .icon-navbar{
     font-size: 12px;
@@ -160,7 +152,6 @@
     display: none;
     font-size: 40px;
 }
-
 .menu-responsive{
     /* display: flex; */
     display: none;
@@ -174,7 +165,6 @@
     backdrop-filter: blur(4px);
     background-color: rgba(255, 255, 255, 0.397);
 }
-
 .menu-responsive > .navbar-responsive{
     display: flex;
     justify-content:center;
@@ -182,7 +172,6 @@
     flex-direction: column;
     margin-bottom: 250px;
 }
-
 .menu-responsive > .navbar-responsive > .home-navbar{
     display: inline-flex;
     margin-bottom: 20px;
@@ -193,7 +182,6 @@
     background-color: transparent ;
     border-bottom: solid 1px;
 }
-
 .menu-responsive > .navbar-responsive > .about-navbar{
     display: inline-flex;
     margin-bottom: 20px;
@@ -204,7 +192,6 @@
     background-color: transparent;
     border-bottom: solid 1px;
 }
-
 .menu-responsive > .navbar-responsive > .join-navbar{
     display: inline-flex;
     margin-bottom: 20px;
@@ -215,8 +202,6 @@
     background-color: transparent ;
     border-bottom: solid 1px;
 }
-
-
 .menu-responsive > .navbar-responsive > .product-navbar{
     display: inline-flex;
     margin-bottom: 20px;
@@ -230,3 +215,224 @@
 /* =================================================================================================================================================================================================
 ============ NAVBAR STYLE END ===================================================================================================================================================================
 ================================================================================================================================================================================================== */
+
+/* =================================================================================================================================================================================================
+============ HERO ABOUT STYLE ===================================================================================================================================================================
+================================================================================================================================================================================================== */
+
+.hero-about-wrapper{
+    width: 100vw;
+    background: rgb(250,237,202);
+background: linear-gradient(180deg, rgba(250,237,202,1) 0%, rgba(247,249,248,1) 75%);
+}
+
+.title-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+
+.title-about-h1{
+    font-size: 5em;
+    font-family: "Quando", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hero-title-about{
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+    width: 600px;
+}
+
+
+.hero-wrapper-about{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hero-title-about-h1{
+    font-size: 8em;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    color: #a51904;
+}
+
+
+
+.hero-img-about{
+    width: 600px;
+    /* background-color: blue; */
+}
+/* =================================================================================================================================================================================================
+============ HERO ABOUT STYLE END ===================================================================================================================================================================
+================================================================================================================================================================================================== */
+
+
+
+
+
+
+/* =================================================================================================================================================================================================
+============ ABOUT STYLE  ===================================================================================================================================================================
+================================================================================================================================================================================================== */
+.about-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 700px;
+    /* background-color: blue; */
+}
+
+.about-img-suwarni{
+    box-shadow: -6px -16px 155px -43px rgba(0,0,0,0.38);
+    -webkit-box-shadow: -6px -16px 155px -43px rgba(0,0,0,0.38);
+    -moz-box-shadow: -6px -16px 155px -43px rgba(0,0,0,0.38);
+}
+
+
+.about-infowrapper{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-info{
+    width: 600px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 2px;
+    /* background-color: greenyellow; */
+}
+
+
+
+.about-visimisi{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 100px;
+}
+
+.about-mean{
+    width: 600px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    /* background-color: green; */
+}
+/* =================================================================================================================================================================================================
+============ ABOUT STYLE END ===================================================================================================================================================================
+================================================================================================================================================================================================== */
+
+
+
+
+/* =================================================================================================================================================================================================
+============ MANAGEMENT STYLE ===================================================================================================================================================================
+================================================================================================================================================================================================== */
+.management-wrappper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 700px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    /* background-color:green; */
+}
+
+.ibusuwarni-inf{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.suwarniText{
+    width: 600px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+
+.masawin-inf{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.winstonText{
+    width: 600px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+.kimsen-inf{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.kimsenIMg{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(211, 211, 211);
+}
+
+.kimsenText{
+    width: 600px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+/* =================================================================================================================================================================================================
+============ MANAGEMENT STYLE END ===================================================================================================================================================================
+================================================================================================================================================================================================== */
+
+
+/* .mitra-wrapper{
+    width: 100vw;
+    height: 700px;
+    background-color:purple;
+}
+
+.history-wrapper{
+    width: 100vw;
+    height: 700px;
+    background-color:yellow;
+} */
+
